@@ -1,10 +1,9 @@
 import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
-import tailwindcss from '@tailwindcss/vite'
+import vue from '@vitejs/plugin-vue'
 
 export default defineConfig({
   base: '/street-food-restaurant/',
-  plugins: [react(), tailwindcss()],
+  plugins: [vue()],
   server: {
     host: true,
     port: 5173,
